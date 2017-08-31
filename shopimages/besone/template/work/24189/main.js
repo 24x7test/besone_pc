@@ -1,0 +1,1 @@
+var scrolling_check=!1;var slide_check=!1

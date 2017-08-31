@@ -1,0 +1,36 @@
+/* BASIC css start */
+/* ??? ???? */
+.list_title { clear:both; height:20px; margin:40px 0 20px 3px; text-align:left; }
+.list_title h2 { color:#222; font-size:13px; letter-spacing:1px; font-family:'Lato', 'Nanum Gothic'; }
+.list_title span { font-size:11px; color:#888; font-weight:normal; padding-left:5px; }
+
+/* ??? ?????? */
+.list_recmd_pro { clear:both; }
+.list_recmd_pro ul { margin-bottom:20px !important; }
+.list_recmd_pro ul.item > li { margin-bottom:20px !important; }
+.list_recmd_pro ul.item .prd-thumb { position:relative; }
+
+.hot_icon { width:100%; height:50px; background:url(../../../../../design/besone/onedesign/images/bg_list_recmd.png) 0 0 repeat; text-align:center; position:absolute; bottom:0px; left:0px; }
+.hot_icon span { color:#555; line-height:50px; font-size:10px; letter-spacing:2px; text-decoration:underline; }
+.hot_icon span b { color:#434343; }
+
+/* ???? */
+.cate-wrap { clear:both; }
+.cate-wrap .mcate { clear:both; font-size:0; text-align:left; margin:20px 0 20px; }
+.cate-wrap .mcate li { display:inline-block; *display:inline; *zoom:1; font-size:11px; padding:0 10px; background:url(../../../../../design/besone/onedesign/images/line_menu.png) 0 50% no-repeat; vertical-align:top; }
+.cate-wrap .mcate li:first-child { background:none; padding-left:3px; }
+.cate-wrap .mcate li a { display:inline-block; color:#222; }
+.cate-wrap .mcate li a:hover { color:#222; text-decoration:none; }
+
+
+
+.admin_cate_info { width: 100%; height: auto; overflow: hidden; margin: 20px 0; }
+.admin_cate_info img { max-width: 100%; }
+
+/* BASIC css end */
+
+
+
+
+
+
