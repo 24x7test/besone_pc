@@ -952,10 +952,10 @@ function object_count(obj) {
             } else {
                 _option.append('<input type="text" id="MS_amount_' + _option_id + '" name="amount[]" value="' + _stock + '" onfocusout="set_amount(this, \'' + option_mode + '\');" size="4" style="text-align: right; float: left;" class="' + _option_class + '" />');
                 _option.append('<a href="javascript:set_amount(\'MS_amount_' + _option_id + '\', \'' + option_mode + '\', \'up\');" class="MK_btn-up">');
-                _option.append('<img src="/images/common/basket_up.gif" alt="' + get_lang('increase_quantity') + '" border="0" />');
+                _option.append('<img src="images/basket_up.gif" alt="' + get_lang('increase_quantity') + '" border="0" />');
                 _option.append('</a>');
                 _option.append('<a href="javascript:set_amount(\'MS_amount_' + _option_id + '\', \'' + option_mode + '\', \'down\');" class="MK_btn-dw">');
-                _option.append('<img src="/images/common/basket_down.gif" alt="' + get_lang('decrease_quantity') + '" border="0" />');
+                _option.append('<img src="images/basket_down.gif" alt="' + get_lang('decrease_quantity') + '" border="0" />');
                 _option.append('</a>');
             }
             _option.append('</div>');
@@ -1679,10 +1679,10 @@ function object_count(obj) {
             } else {
                 _option.append('<input type="text" id="MS_amount_basic_0" name="amount[]" value="' + option_manager.get_min_amount('basic') + '" onfocusout="set_amount(this, \'basic\');" size="4" style="text-align: right; float: left;" class="basic_option" />');
                 _option.append('<a href="javascript:set_amount(\'MS_amount_basic_0\', \'basic\', \'up\');" class="MK_btn-up">');
-                _option.append('<img src="/images/common/basket_up.gif" alt="' + get_lang('increase_quantity') + '" border="0" />');
+                _option.append('<img src="images/basket_up.gif" alt="' + get_lang('increase_quantity') + '" border="0" />');
                 _option.append('</a>');
                 _option.append('<a href="javascript:set_amount(\'MS_amount_basic_0\', \'basic\', \'down\');" class="MK_btn-dw">');
-                _option.append('<img src="/images/common/basket_down.gif" alt="' + get_lang('decrease_quantity') + '" border="0" />');
+                _option.append('<img src="images/basket_down.gif" alt="' + get_lang('decrease_quantity') + '" border="0" />');
                 _option.append('</a>');
             }
             _option.append('</div>');
@@ -1816,6 +1816,7 @@ function send_multi(cnt, mode, relation, noproduct) {
 
     document.allbasket.submit();
 }
+
 
 
 
